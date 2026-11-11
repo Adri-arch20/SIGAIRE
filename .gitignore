@@ -1,0 +1,36 @@
+# Entornos virtuales de Python
+.venv/
+.robot-venv/
+venv/
+ENV/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Bases de datos locales de SQLite y registros de transacciones
+backend/data/*.db
+backend/data/*.db-wal
+backend/data/*.db-shm
+
+# Dependencias y compilación del Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Modelos de Machine Learning / IA
+robot/models/*.pt
+
+# Archivos de configuración y variables de entorno sensibles
+config/sensores.env
+.env
+*.env
+
+# Archivos del sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

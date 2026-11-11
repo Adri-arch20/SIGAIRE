@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "description": "Calibracion lineal SDS011. Los coeficientes 1.0/0.0 conservan la calibracion de fabrica. Sustituir solo tras comparacion con un instrumento de referencia.",
+  "pm25": {
+    "slope": 1.0,
+    "intercept": 0.0
+  },
+  "pm10": {
+    "slope": 1.0,
+    "intercept": 0.0
+  },
+  "filter": {
+    "warmup_seconds": 60,
+    "window_size": 15,
+    "ema_alpha": 0.35,
+    "mad_sigma": 3.5,
+    "min_valid_samples": 5,
+    "stale_seconds": 5
+  }
+}
